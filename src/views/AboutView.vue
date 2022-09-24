@@ -1,0 +1,12 @@
+<template>
+  <div class="about">
+    <h1>This is an about page</h1>
+  </div>
+</template>
+
+<script lang="ts" setup>
+ref(0);
+const incrCounter = function () {
+  counter.value++;
+};
+</script>
